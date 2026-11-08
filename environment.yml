@@ -1,0 +1,12 @@
+name: mfg
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - pytest
+  - python-duckdb
+  - streamlit
+prefix: /opt/anaconda3/envs/mfg

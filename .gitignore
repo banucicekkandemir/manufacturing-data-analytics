@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environments (not used, kept for safety)
+.venv/
+
+# Generated data and local database
+data/outputs/
+*.duckdb
+
+# OS and secrets
+.DS_Store
+.env
